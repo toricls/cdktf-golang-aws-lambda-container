@@ -1,3 +1,10 @@
+# cdktf and terraform ignores
+.terraform
+cdktf.out
+cdktf.log
+*terraform.*.tfstate*
+generated
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
