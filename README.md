@@ -37,14 +37,16 @@ Let's download dependencies and generate code.
 Generated go constructs in the output directory: generated
 
 The generated code depends on jsii-runtime-go. If you haven't yet installed it, you can run go mod tidy to automatically install it.
+```
 
+```shell
 # Install jsii to let Go code to interact with CDK
 ❯ go mod tidy
 ```
 
 ### Pull and push "Lambda-enabled" container image to Amazon ECR
 
-Because AWS Lambda only support Amazon ECR private repositories today, you need to copy a sample container image from Amazon ECR Public (or bring your own Lambda-enabled container image) to your own Amazon ECR private repository.
+Because AWS Lambda only supports Amazon ECR private repositories today, you need to copy a sample container image from Amazon ECR Public (or bring your own [Lambda-enabled container image](https://github.com/toricls/go-hello-world#run-on-aws-lambda)) to your own Amazon ECR private repository.
 
 ```shell
 # Pull public container image that supports AWS Lambda
