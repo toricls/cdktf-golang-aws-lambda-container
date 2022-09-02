@@ -2,10 +2,9 @@ module cdk.tf/go/stack
 
 go 1.16
 
-require github.com/aws/constructs-go/constructs/v10 v10.0.98
+require github.com/aws/constructs-go/constructs/v10 v10.1.94
 
 require (
-	github.com/aws/aws-lambda-go v1.29.0
-	github.com/aws/jsii-runtime-go v1.55.1
-	github.com/hashicorp/terraform-cdk-go/cdktf v0.10.1
+	github.com/aws/jsii-runtime-go v1.66.0
+	github.com/hashicorp/terraform-cdk-go/cdktf v0.12.2
 )

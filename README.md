@@ -9,7 +9,7 @@ For reference:
 
 ## Prerequisites
 
-- CDK for Terraform (`cdktf`) v0.10.1
+- CDK for Terraform (`cdktf`) v0.12.2
 - Docker
 - Go
 
@@ -24,7 +24,7 @@ We assume you already have Docker and Go installations in your laptop, so let's 
 ❯ brew install cdktf
 
 ❯ cdktf --version
-0.10.1
+0.12.2
 ```
 
 Let's download dependencies and generate code.
